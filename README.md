@@ -1,6 +1,6 @@
-##Docker
+## Docker
 
-###Containers
+### Containers
 
 ```
 sudo docker container run hello-world
@@ -30,7 +30,7 @@ sudo docker container inspect ex-daemon-basic
 sudo docker container exec ex-daemon-basic uname -or
 ```
 
-###Images
+### Images
 
 ```
 sudo docker image pull redis
@@ -55,7 +55,7 @@ sudo docker login --username=lourivaldo
 sudo docker image push lourivaldo/simple-build:1.0
 ```
 
-###Network
+### Network
 
 ```
 sudo docker network list
